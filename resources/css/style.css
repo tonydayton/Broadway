@@ -1,0 +1,16 @@
+body{
+  font-family: Helvetica;
+  text-align: center;
+}
+
+#title{
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+.list{
+  color: white;
+  text-decoration: underline;
+  font-size: 18px;
+}
