@@ -2,7 +2,11 @@ body{
   font-family: Helvetica;
   text-align: center;
 }
-
+.background{
+    background-image: url("../images/background image.png");
+    /*somehow this isn't working, so cover is a work-around*/
+    background-size: cover;
+}
 #title{
   font-size: 70px;
   font-weight: bold;
@@ -13,4 +17,38 @@ body{
   color: white;
   text-decoration: underline;
   font-size: 18px;
+}
+
+#process{
+  font-size:32px;
+  font-weight:bold;
+}
+
+.subheading{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.lines{
+  font-size: 14px;
+}
+
+.designed{
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url("../images/background image.png");
+}
+
+.footer{
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
+}
+
+#footerlink{
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
 }
